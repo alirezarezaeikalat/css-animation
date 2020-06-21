@@ -90,4 +90,19 @@
                                             // through this
         }
 
+7. we can have animation direction to change the from and to in the 
+    keyframe: 
+    
+    animation-direction: normal; //reverse //alternate//alternate-reverse
 
+8.  we can use animation timing function to control the speed of the animation
+
+    animation-timing-function: ease; start slow, fast in the middle and slow at the end
+    linear: constant speed all the way
+    ease-in: start slow and get faster
+    ease-out: start fast but get slower
+    cubic-bezier(,,,) it gets for number it is based on the cubic function
+
+9. There is animation shorthand for this properties: 
+
+      animation: wind 80s linear 0s infinite reverse both;
