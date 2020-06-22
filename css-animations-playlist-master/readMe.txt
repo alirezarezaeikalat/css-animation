@@ -106,3 +106,19 @@
 9. There is animation shorthand for this properties: 
 
       animation: wind 80s linear 0s infinite reverse both;
+
+10. we can use percentage instead of to and from {
+    @keyframes drop {
+        0% {
+
+        }
+        50% {
+
+        }
+        100% {
+
+        }
+    }
+}
+
+11. we can use transform origin to change the origin of the transform point

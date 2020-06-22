@@ -61,7 +61,21 @@ button{
 }
 
 /*// POP-UP ANIMATION STYLES //*/
+#pop-up {
+  top: -400px;
+  animation: drop 0.5s ease 0.2s 1 normal forwards;
+}
 
+@keyframes drop {
+  0% {opacity: 0;}
+  70% {
+    transform: translateY(700px);
+  }
+  100% {
+    transform: translateY(650px);
+    opacity: 1;
+  }
+}
 
 /*// BASKET BASE STYLES //*/
 
